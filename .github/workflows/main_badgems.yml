@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'badgems'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_498EF265D1844D6385325334147EE8CC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DBE57C454A644F67B18114070CC38C19 }}
           package: '*.jar'
